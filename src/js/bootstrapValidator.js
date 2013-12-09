@@ -197,7 +197,7 @@
          */
         getFieldElement: function(field) {
             var fields = this.$form.find('[name="' + field + '"]');
-            return (fields.length == 0) ? null : $(fields[0]);
+            return (fields.length == 0) ? null : fields;
         },
 
         /**
