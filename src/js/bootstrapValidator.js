@@ -221,7 +221,6 @@
                 if ( $field.val() || validatorName === 'notEmpty')
                     isValid = $.fn.bootstrapValidator.validators[validatorName].validate(that, $field, validators[validatorName]);
 
-                var isValid = $.fn.bootstrapValidator.validators[validatorName].validate(that, $field, validators[validatorName]);
                 if (isValid === false) {
                     that.showError($field, validatorName);
                     break;
